@@ -85,7 +85,9 @@ plt.grid()
 plt.show()
 
 rmse = np.sqrt(mean_squared_error(test_data, test_predictions_add))
+mean = np.sqrt(scaled_data.var()),scaled_data.mean()
 print(f'RMSE: {rmse:.4f}')
+print(mean)
 
 final_model = ExponentialSmoothing(scaled_data, trend='add', seasonal='add', seasonal_periods=24).fit()
 forecast_steps = 24
