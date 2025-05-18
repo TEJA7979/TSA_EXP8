@@ -114,6 +114,9 @@ plt.show()
 ### Exponential Smoothing:
 ![image](https://github.com/user-attachments/assets/569f63c8-f7c1-4471-a52e-7003d3fcc617)
 
+### Performance
+![Screenshot (113)](https://github.com/user-attachments/assets/621c91ec-a5ec-46e2-b308-f6dae7f90068)
+
 ### Prediction:
 ![image](https://github.com/user-attachments/assets/f47923c3-9133-47ee-83e8-82992ee31626)
 
